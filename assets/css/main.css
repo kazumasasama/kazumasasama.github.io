@@ -6,6 +6,29 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* custom classes */
+.avatar-circle {
+  height: 200px;
+  width: 200px;
+  border-radius:50%;
+  background-image: url("/images/kaz-face.jpg");
+  background-size: 200px;
+}
+
+.avatar-outline {
+  height: 210px;
+  width: 210px;
+  padding: 5px;
+  border-radius:50%;
+  background: linear-gradient(to right top, rgb(190, 190, 190), white);
+  margin-bottom: 30px;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
